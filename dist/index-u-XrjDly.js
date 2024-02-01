@@ -1,6 +1,6 @@
 import { jsx as c } from "react/jsx-runtime";
 import { createContext as x, useState as l, useEffect as v, useContext as C } from "react";
-import _ from "@vixen-front/ui";
+import { ErrorFrame as _ } from "@vixen-front/ui";
 function g() {
   const s = /* @__PURE__ */ (() => {
     let e = {};
@@ -11,7 +11,7 @@ function g() {
       e = t;
     }
     function n(t) {
-      return o(t) ? e[t] : /* @__PURE__ */ c(_.ErrorFrame, { message: u().error });
+      return o(t) ? e[t] : /* @__PURE__ */ c(_, { message: u().error });
     }
     return {
       hasRoute: o,
