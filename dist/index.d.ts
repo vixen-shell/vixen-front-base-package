@@ -1,5 +1,4 @@
-import * as Router from './router';
-import * as GlobalState from './globalState';
-import * as Features from './feature';
-export { Router, GlobalState, Features };
-export * from './types';
+export * as ui from './ui';
+export * as Root from './root';
+export { Feature } from './feature';
+export type { EventData } from './api';

@@ -1,8 +1,5 @@
-const e = (t) => {
-  t.preventDefault();
-}, r = () => (document.addEventListener("contextmenu", e), n), n = () => {
-  document.removeEventListener("contextmenu", e);
+const e = () => t, t = () => {
 };
 export {
-  r as default
+  e as default
 };
